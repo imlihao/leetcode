@@ -3,7 +3,7 @@
         {
             "name": "MinGW",
             "intelliSenseMode": "${default}",
-            "compilerPath": "C:/mingw64/bin/g++.exe",
+            "compilerPath": "D:/_code/support/mingw64/bin/g++.exe",
             "includePath": [
                 "${workspaceFolder}"
             ],
