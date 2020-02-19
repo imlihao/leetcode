@@ -1,6 +1,13 @@
 //76. Minimum Window Substring
 /**
- * 
+ * 寻找包含t的s最小子串
+ *  滑动窗口算法(o(2n))
+ *     L=R=0;（在s的范围内）
+ *     判断s[l~R]是否符合条件，
+ *     是: L++,记录比较此次(尝试收缩)
+ *     或R++,（寻找新的字串）
+ *     
+ *     
  * */
 #include <iostream>
 #include <map>
