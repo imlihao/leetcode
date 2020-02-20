@@ -105,20 +105,20 @@ bool isSameTree(TreeNode *p, TreeNode *q)
     return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
 }
 
-int main()
-{
-    TreeNode a(5), b(2), c(8), d(3), e(3), f(9);
-    a.left = &b;
-    a.right = &c;
-    b.left = &d;
-    b.right = &e;
-    c.right = &f;
-    cout << "Tree:" << endl;
-    printTree(&a);
-    // cout << "reverseTree:" << endl;
-    // reverseTree(&a);
-    // printTree(&a);
-    bool bo = vaildBSTree(&a, NULL, NULL);
-    cout << "VaildTree:" << (bo ? "True" : "False") << endl;
-    system("pause");
-}
+// int main()
+// {
+//     TreeNode a(5), b(2), c(8), d(3), e(3), f(9);
+//     a.left = &b;
+//     a.right = &c;
+//     b.left = &d;
+//     b.right = &e;
+//     c.right = &f;
+//     cout << "Tree:" << endl;
+//     printTree(&a);
+//     // cout << "reverseTree:" << endl;
+//     // reverseTree(&a);
+//     // printTree(&a);
+//     bool bo = vaildBSTree(&a, NULL, NULL);
+//     cout << "VaildTree:" << (bo ? "True" : "False") << endl;
+//     system("pause");
+// }
