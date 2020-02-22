@@ -1,4 +1,9 @@
 //29. Divide Two Integers
+/**
+ *  可转化为问题 多少个divisor相加可以刚好大于等dividend 时间复杂度o(n)
+ *     纯用加法的话，当 divisor=1,dividend = INT_MAX会执行两亿多次操作（2^31-1）
+ *     优化方式: dividend >= divisor*2^n1 + divisot*2^n2+...; 优化后时间复杂度应该是o(logn)
+ * */
 #include <iostream>
 using namespace std;
 class Solution
