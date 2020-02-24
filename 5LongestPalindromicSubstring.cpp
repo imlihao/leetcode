@@ -97,7 +97,7 @@ int main()
 
     cout << Solution().longestPalindrome2("abcdcba") << endl;
     cout << Solution().longestPalindrome2("caabcdcbadddd") << endl;
-    cout << Solution().longestPalindrome2("abcdcbapppppppppppppppppppppppppp") << endl;
+    cout << Solution().longestPalindrome2("abcdcba") << endl;
     cout << Solution().longestPalindrome2("ssooppabcdcbammm") << endl;
     system("pause");
 }
