@@ -1,6 +1,6 @@
 //78. Subsets
 /**
- *  
+ *  回溯法 
  * */
 #include <iostream>
 #include <vector>
